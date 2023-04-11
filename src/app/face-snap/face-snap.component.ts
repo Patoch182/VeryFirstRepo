@@ -12,16 +12,16 @@ buttonText!: string;
 
 
 ngOnInit() {
-this.buttonText = 'Whoa, Snap!';
+this.buttonText = 'Whoaa, Snap!!';
 }
 
 onSnap() {
-  if (this.buttonText === 'Whoa, Snap!') {
+  if (this.buttonText === 'Whoaa, Snap!!') {
     this.faceSnap.snaps++;
-    this.buttonText = 'Oops, unsnap!';
+    this.buttonText = 'Oops, unSnap!';
   } else {
     this.faceSnap.snaps--;
-    this.buttonText = 'Whoa, Snap!';
+    this.buttonText = 'Whoaa, Snap!!';
   }
-  }
+}
 }
